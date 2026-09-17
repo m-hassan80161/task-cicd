@@ -17,7 +17,7 @@ jobs:
     # تشغيل حاوية PostgreSQL مؤقتة للاختبارات
     services:
       postgres:
-        image: postgres:16-alpine
+        image: postgres:14-alpine
         env:
           POSTGRES_USER: taskuser
           POSTGRES_PASSWORD: taskpassword
